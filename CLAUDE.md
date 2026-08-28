@@ -12,6 +12,7 @@ changing any framework code, read the relevant guide under
 `node_modules/next/dist/docs/` (`01-app`, `02-pages`, `03-architecture`, `index.md`).
 
 Things already visible in this repo that differ from older Next.js:
+
 - Route component props use framework-generated global types: `RootLayout` takes
   `LayoutProps<"/">`, and pages/route handlers have matching `PageProps` /
   `RouteContext` generics keyed by route path. Don't hand-write these prop types.
@@ -30,6 +31,10 @@ npm run lint    # eslint (flat config, eslint-config-next core-web-vitals + type
 
 No test runner is configured yet. If you add one, wire it into `package.json` scripts
 and document how to run a single test here.
+
+# Skills
+
+Usa siempre /frontend-design para diseñar la interfaz de usuario.
 
 ## Architecture
 
